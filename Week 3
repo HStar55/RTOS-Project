@@ -49,32 +49,37 @@ In-Scope work items:
 Basics of LCD Screen 
 Incomplete
 Total time: 7 hours
-I will be figuring out how to display and be able to show different things on the LCD screen.
+Managing on how to implement the castle and artillery as well as the movements of each aspect that needs to be presented on the screen.
 
 Satchel movement
 Incomplete
 Total time: 6 hours
-I will need to be able to find calculations and projections of the satchel movement based on its location on the screen. Either if it needs to bounce off a wall or just arching down with different speeds.
+I will need to be able to find calculations and projections of the satchel movement based on its location on the screen. Either if it needs to bounce off 
+a wall or just arching down with different speeds. Including if it reaches the artillery or the floor or even the protective shield.
 
 LED blinking
 Incomplete
 Total Time: 3 hours
-I will need to figure out how to change the intensity of the LED and have it blink when needed
+The LED will need to blink in order for the evacuation and as well show the LED based on brightness, show the power that was inputted by the user. 
 
 Artillery movements
 Incomplete
 Total Time: 5 hours
-Have the Artillery and platform move based on the capsense being pressed. There will be some adjustments and different speeds that will be needed to be implemented in order to provide this functionality.
+Have the Artillery and platform move based on where the capsense is being pressed. There will be some adjustments and different speeds that will be 
+needed to be implemented in order to provide this functionality, including if it hits the edges. 
 
 Button pressed/capsense slider
 Incomplete
 Total Time: 5 hours
-Make sure there is a priority between these tasks and have the LCD screen show accordingly of what is being pressed
+Make sure there is a priority between these tasks and have the LCD screen show accordingly of what is being pressed. Make sure that the inputs cooperate
+with the user.
 
 Data storage
 Incomplete
 Total Time: 10 hours
-There will be plenty of data to be managed from time and movement/placement in order for everything to run. This will give a sense of reality when things align correctly. As well as task priority and how long something has been pressed or if the castle has been damaged enough to go into the next sequence (task) of the game. 
+There will be plenty of data to be managed from time and movement/placement in order for everything to run. This will give a sense of reality when things 
+align correctly. As well as task priority and how long something has been pressed or if the castle has been damaged enough to go into the next sequence 
+(task) of the game. This will also include physics that will be implemented throughout the entire project.
 
 Beginning/End screen
 Incomplete
