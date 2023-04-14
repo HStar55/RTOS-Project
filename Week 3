@@ -1,1 +1,62 @@
+Summary Statement: 
+
+Unit Testing Plan/cutting points: 
+
+1) Satchel Boundary movement:
+    One conceptual test will be seeing if the satchel hits the right wall and bounces off of it. If it does, then the test passes. If the satchel goes past
+    the barrier, then will fail and debugging will need to proceed
+    Another conceptual test will be if the speed and angle from hitting the boundary is correct. The path of the satchel should be consistent.
+2) Artillery movement:
+    A conceptual test would be if the slider can move the artillery left and right. Another will be if it stops or bounces off the boundary wall. The 
+    artillery needs to be in view at all times and no pieces will be missing. So having it be able to bounce just like the satchel will be beneficial. 
+3) Artillery Shield
+    With hitting a button, it will activate the protective shield. If it activates, then we have succeeded. Another test will be if the shield dissapears 
+    after a while. Having a set amount of time the shield is active will help show if a test passes.
+    
+Statement where project stands: The basics of the foundation is implemented with files that organize different aspects of the project that will eventually
+                                all work together in the main file. I identified more risks that will be an issue of a fully functioning project and added 
+                                them to my risk register. I added a couple cutting points and idealized some conceptual tests that will help show if an 
+                                aspect of my code will be functionable or if there will be some debugging for the future.
+                                
+Summary effort: I have completed 63% of the estimated work in 85% of my estimated time. For the work that was completed, it took me around 1.5x more
+                time in order to finish creating what files to make. This section has taken up to 6 hours to complete.
+                For my scope for next week, I hope to work at least 2.5x the amount of time (15 hours) on the project in working out the functions 
+                and implementation of the project.
+                
+
+In-Scope work items:
+Basics of LCD Screen 
+Incomplete
+Total time: 8 hours
+I will be figuring out how to display and be able to show different things on the LCD screen.
+
+Satchel movement
+Incomplete
+Total time: 9 hours
+I will need to be able to find calculations and projections of the satchel movement based on its location on the screen. Either if it needs to bounce off a wall or just arching down with different speeds.
+
+LED blinking
+Incomplete
+Total Time: 3.5 hours
+I will need to figure out how to change the intensity of the LED and have it blink when needed
+
+Artillery movements
+Incomplete
+Total Time: 6 hours
+Have the Artillery and platform move based on the capsense being pressed. There will be some adjustments and different speeds that will be needed to be implemented in order to provide this functionality.
+
+Button pressed/capsense slider
+Incomplete
+Total Time: 7.5 hours
+Make sure there is a priority between these tasks and have the LCD screen show accordingly of what is being pressed
+
+Data storage
+Incomplete
+Total Time: 10+ hours
+There will be plenty of data to be managed from time and movement/placement in order for everything to run. This will give a sense of reality when things align correctly. As well as task priority and how long something has been pressed or if the castle has been damaged enough to go into the next sequence (task) of the game. 
+
+Beginning/End screen
+Incomplete
+Total Time: 2 hours
+Having a title and ending screen to show when the game can begin and when the game has ended. 
 
