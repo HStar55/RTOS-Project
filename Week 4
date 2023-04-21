@@ -14,7 +14,7 @@ Unit Testing Plan/cutting points:
 Functional Tests:
 1) Blinking Left LED: Fail
     When the castle is hit enough times and you have started evacuation, need to make sure that LED is blinking. This is once you hit the castle enough 
-    times to complete the game. 
+    times to complete the game. This will show the evacuation and will not blink when you are finished and the game is over. 
 2) Right LED: Fail
     The pressure will show the LED at different brightness' based on its input time. By holding the left button, the LED will get brighter and brighter 
     the longer you are still holding the button till it reaches its maximum input
