@@ -13,25 +13,32 @@ Unit Testing Plan/cutting points:
     
 Functional Tests:
 1) Blinking Left LED: Fail
-    When the castle is hit enough times and you have started evacuation, need to make sure that LED is blinking.
+    When the castle is hit enough times and you have started evacuation, need to make sure that LED is blinking. This is once you hit the castle enough 
+    times to complete the game. 
 2) Right LED: Fail
-    The pressure will show the LED at different birghtness' based on its input time.
+    The pressure will show the LED at different brightness' based on its input time. By holding the left button, the LED will get brighter and brighter 
+    the longer you are still holding the button till it reaches its maximum input
 3) Speed of rail-gun shot: Fail
-    Showing the different speeds of the shot based on the input timer from button
+    Showing the different speeds of the shot based on the input timer from button. Hold the left button and be able to see exactly the different speeds
+    the rail gun can shoot with.
 4) Satchel hits floor: Fail
-    When the satchel hits the floor, the game will end as the player has lost
+    When the satchel hits the floor, the game will end as the player has lost. Game will go to an end screen. Visual test
 5) Always on (satchel): Fail
-    Always see a satchel on screen at all tiems
+    Always see a satchel on screen at all times. 
 6) Artillery movement: Fail
-    Artillery will slow down to a stop when capsense is not being touched 
+    Artillery will slow down to a stop when capsense is not being touched. Hit one side of the capsense and notice the platform bouncing and not gaining any
+    speed but more so losing speed.
 7) Satchel bounce: Fail
-    When the satchel hits the wall, make sure that the horizontal velocity does not change
-8) Shot comes out from the barrell of rail gun: Fail
-    Make sure the shot comes out of the barrell and no where else
-9) Rail gun and artillery move together: Fail
-    When moving the artillery, make sure that the rail gun moves with it
+    When the satchel hits the wall, make sure that the horizontal velocity does not change.
+8) Rail gun and artillery move together: Fail
+    When moving the artillery, make sure that the rail gun moves with it. Use the capsense slider to left and right to see if the rail gun moves with 
+    the platform.
+9) Shot comes out from the barrell of rail gun: Fail
+    Make sure the shot comes out of the barrell and no where else. Press the left button and notice a bullet coming out of the rail gun. 
+    Move the platoform by using the capsense slider and repeat hitting the left button to see if it is coming out of the rail gun.
 10) Satchel physics: Fail
-     Make sure the parabola of the satchel makes sense and follows a correct path logically
+     Make sure the parabola of the satchel makes sense and follows a correct path logically. This is physically seeing and using knowledge to check 
+     the satchels path.
     
     
 Statement where project stands: This week, I started trying to get the movement of my Artillery machine and platform to move with the capsense and getting
@@ -75,13 +82,13 @@ needed to be implemented in order to provide this functionality, including if it
 
 Button pressed/capsense slider
 Incomplete
-Total Time: 5 hours
+Total Time: 4 hours
 Make sure there is a priority between these tasks and have the LCD screen show accordingly of what is being pressed. Make sure that the inputs cooperate
 with the user.
 
 Data storage
 Incomplete
-Total Time: 10 hours
+Total Time: 8 hours
 There will be plenty of data to be managed from time and movement/placement in order for everything to run. This will give a sense of reality when things 
 align correctly. As well as task priority and how long something has been pressed or if the castle has been damaged enough to go into the next sequence 
 (task) of the game. This will also include physics that will be implemented throughout the entire project.
