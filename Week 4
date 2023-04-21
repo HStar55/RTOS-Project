@@ -34,10 +34,11 @@ Functional Tests:
      Make sure the parabola of the satchel makes sense and follows a correct path logically
     
     
-Statement where project stands: This week the tasks were created and relevant functions were implemented but not functionable at the moment. I added one
-                                iten to the risk register and changed some of the risk levels on some as I have gained more information on how to implement
-                                them and able to get them mitigated. I added functional tests to eventually test out when I can get some working functions
-                                in the project. The project will hopefully show a partially working project by next week. 
+Statement where project stands: This week, I started trying to get the movement of my Artillery machine and platform to move with the capsense and getting
+                                the buttons to work with the artillery to deploy the shield and shoot the rail gun. There is not much functionality into this 
+                                portion yet but gradually getting there. I updated my risk register by mitigating the LCD screen and other risks to not be as 
+                                in the red, but more in the green and yellow. I added functional tests that will help users make sure that everything works in 
+                                the project, but as of now most still will not completely work. 
                                 
                                 
 Summary effort:  I was able to complete 40% of my estimated work in 50% (8/16 hours) of of my initially estimated time. I took 1.6x (8/5) more time as I
