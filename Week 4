@@ -1,1 +1,87 @@
+Unit Testing Plan/cutting points: 
+
+1) Satchel Boundary movement: Fail
+    One conceptual test will be seeing if the satchel hits the right wall and bounces off of it. If it does, then the test passes. If the satchel goes past
+    the barrier, then will fail and debugging will need to proceed
+    Another conceptual test will be if the speed and angle from hitting the boundary is correct. The path of the satchel should be consistent.
+2) Artillery movement: Fail
+    A conceptual test would be if the slider can move the artillery left and right. Another will be if it stops or bounces off the boundary wall. The 
+    artillery needs to be in view at all times and no pieces will be missing. So having it be able to bounce just like the satchel will be beneficial. 
+3) Artillery Shield: Fail
+    With hitting a button, it will activate the protective shield. If it activates, then we have succeeded. Another test will be if the shield dissapears 
+    after a while. Having a set amount of time the shield is active will help show if a test passes.
+    
+Functional Tests:
+1) Blinking Left LED: Fail
+    When the castle is hit enough times and you have started evacuation, need to make sure that LED is blinking.
+2) Right LED: Fail
+    The pressure will show the LED at different birghtness' based on its input time.
+3) Speed of rail-gun shot: Fail
+    Showing the different speeds of the shot based on the input timer from button
+4) Satchel hits floor: Fail
+    When the satchel hits the floor, the game will end as the player has lost
+5) Always on (satchel): Fail
+    Always see a satchel on screen at all tiems
+6) Artillery movement: Fail
+    Artillery will slow down to a stop when capsense is not being touched 
+7) Satchel bounce: Fail
+    When the satchel hits the wall, make sure that the horizontal velocity does not change
+8) Shot comes out from the barrell of rail gun: Fail
+    Make sure the shot comes out of the barrell and no where else
+9) Rail gun and artillery move together: Fail
+    When moving the artillery, make sure that the rail gun moves with it
+10) Satchel physics: Fail
+     Make sure the parabola of the satchel makes sense and follows a correct path logically
+    
+    
+Statement where project stands: This week the tasks were created and relevant functions were implemented but not functionable at the moment. I added one
+                                iten to the risk register and changed some of the risk levels on some as I have gained more information on how to implement
+                                them and able to get them mitigated. I added functional tests to eventually test out when I can get some working functions
+                                in the project. The project will hopefully show a partially working project by next week. 
+                                
+Summary effort:  I was able to complete 33% of my estimated work in 58% (7/12 hours) of of my initially estimated time. I took 1.75x (7/4) more time as I
+                 estimated that it would take. 
+                           
+
+In-Scope work items:
+Basics of LCD Screen 
+Incomplete
+Total time: 7 hours
+Managing on how to implement the castle and artillery as well as the movements of each aspect that needs to be presented on the screen.
+
+Satchel movement
+Incomplete
+Total time: 6 hours
+I will need to be able to find calculations and projections of the satchel movement based on its location on the screen. Either if it needs to bounce off 
+a wall or just arching down with different speeds. Including if it reaches the artillery or the floor or even the protective shield.
+
+LED blinking
+Incomplete
+Total Time: 3 hours
+The LED will need to blink in order for the evacuation and as well show the LED based on brightness, show the power that was inputted by the user. 
+
+Artillery movements
+Incomplete
+Total Time: 5 hours
+Have the Artillery and platform move based on where the capsense is being pressed. There will be some adjustments and different speeds that will be 
+needed to be implemented in order to provide this functionality, including if it hits the edges. 
+
+Button pressed/capsense slider
+Incomplete
+Total Time: 5 hours
+Make sure there is a priority between these tasks and have the LCD screen show accordingly of what is being pressed. Make sure that the inputs cooperate
+with the user.
+
+Data storage
+Incomplete
+Total Time: 10 hours
+There will be plenty of data to be managed from time and movement/placement in order for everything to run. This will give a sense of reality when things 
+align correctly. As well as task priority and how long something has been pressed or if the castle has been damaged enough to go into the next sequence 
+(task) of the game. This will also include physics that will be implemented throughout the entire project.
+
+Beginning/End screen
+Incomplete
+Total Time: 2 hours
+Having a title and ending screen to show when the game can begin and when the game has ended. 
+
 
