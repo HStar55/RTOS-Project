@@ -39,15 +39,21 @@ Statement where project stands: This week the tasks were created and relevant fu
                                 them and able to get them mitigated. I added functional tests to eventually test out when I can get some working functions
                                 in the project. The project will hopefully show a partially working project by next week. 
                                 
+                                
 Summary effort:  I was able to complete 40% of my estimated work in 50% (8/16 hours) of of my initially estimated time. I took 1.6x (8/5) more time as I
                  estimated that it would take. 
                            
 
 In-Scope work items:
 Basics of LCD Screen 
-Incomplete
-Total time: 7 hours
+Complete
+Total time: 13 hours
 Managing on how to implement the castle and artillery as well as the movements of each aspect that needs to be presented on the screen.
+
+This was an important one to complete as the whole design of the project was around using the LCD display. I had to tackle Lab 7 first in order to understand 
+the workings of the screen and how to implement it. This part took me a lot longer than I originally thought as there are a lot of parts and how to figure out 
+and manage what I want to put on the screen. Having to get the size and shape of what I wanted and the structure of what I wanted was the main focus for this
+area
 
 Satchel movement
 Incomplete
@@ -62,7 +68,7 @@ The LED will need to blink in order for the evacuation and as well show the LED 
 
 Artillery movements
 Incomplete
-Total Time: 5 hours
+Total Time: 4 hours
 Have the Artillery and platform move based on where the capsense is being pressed. There will be some adjustments and different speeds that will be 
 needed to be implemented in order to provide this functionality, including if it hits the edges. 
 
