@@ -1,15 +1,4 @@
-Unit Testing Plan/cutting points: 
 
-1) Satchel Boundary movement: Fail
-    One conceptual test will be seeing if the satchel hits the right wall and bounces off of it. If it does, then the test passes. If the satchel goes past
-    the barrier, then will fail and debugging will need to proceed
-    Another conceptual test will be if the speed and angle from hitting the boundary is correct. The path of the satchel should be consistent.
-2) Artillery movement: Fail
-    A conceptual test would be if the slider can move the artillery left and right. Another will be if it stops or bounces off the boundary wall. The 
-    artillery needs to be in view at all times and no pieces will be missing. So having it be able to bounce just like the satchel will be beneficial. 
-3) Artillery Shield: Fail
-    With hitting a button, it will activate the protective shield. If it activates, then we have succeeded. Another test will be if the shield dissapears 
-    after a while. Having a set amount of time the shield is active will help show if a test passes.
     
 Note: I will be updating these into more detail when i have more functionality in order to fully make functional tests. 
 Functional Tests:
@@ -77,7 +66,7 @@ The LED will need to blink in order for the evacuation and as well show the LED 
 
 Artillery movements
 Incomplete
-Total Time: 4 hours
+Total Time: 5 hours
 Have the Artillery and platform move based on where the capsense is being pressed. There will be some adjustments and different speeds that will be 
 needed to be implemented in order to provide this functionality, including if it hits the edges. 
 
