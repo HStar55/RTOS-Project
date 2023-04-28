@@ -11,6 +11,7 @@ Unit Testing Plan/cutting points:
     With hitting a button, it will activate the protective shield. If it activates, then we have succeeded. Another test will be if the shield dissapears 
     after a while. Having a set amount of time the shield is active will help show if a test passes.
     
+Note: I will be updating these into more detail when i have more functionality in order to fully make functional tests. 
 Functional Tests:
 1) Blinking Left LED: Fail
     When the castle is hit enough times and you have started evacuation, need to make sure that LED is blinking. This is once you hit the castle enough 
@@ -41,14 +42,14 @@ Functional Tests:
      the satchels path.
     
     
-Statement where project stands: This week, I started trying to get the movement of my Artillery machine and platform to move with the capsense and getting
-                                the buttons to work with the artillery to deploy the shield and shoot the rail gun. There is not much functionality into this 
-                                portion yet but gradually getting there. I updated my risk register by mitigating the LCD screen and other risks to not be as 
-                                in the red, but more in the green and yellow. I added functional tests that will help users make sure that everything works in 
-                                the project, but as of now most still will not completely work. 
+Statement where project stands: This week, I had to debug the platform placement and movement. I also forgot to add the border on the right so i had to 
+                                account for that which took a little extra time to fix. I mostly worked on the movement of the platform and the damage 
+                                aspect that it can take based on the speed of it getting hit. Being able to hit the canyon once and take damage, but then 
+                                breaking after another strong hit. I also tried working on the speed change as when the arillery shoots, it puts a force 
+                                back into the platform so it changes its overall speed.
                                 
                                 
-Summary effort:  I was able to complete 50% of my estimated work in 60% (12/20 hours) of of my initially estimated time. I took 1.3x (8/6) more time as I
+Summary effort:  I was able to complete 30% of my estimated work in 58% (7/12 hours) of of my initially estimated time. I took 1.3x (8/6) more time as I
                  estimated that it would take. 
                            
 
